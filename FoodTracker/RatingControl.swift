@@ -22,7 +22,14 @@ class RatingControl: UIStackView {
         setupButtons()
     }
     
+    //MARK: Button Action
+    
+    func ratingButtonTapped(button: UIButton) {
+        print("Button pressed 👍")
+    }
+    
     //MARK: Private Methods
+    
     private func setupButtons() {
         //Create the button
         let button = UIButton()
@@ -35,5 +42,8 @@ class RatingControl: UIStackView {
         
         //Add the button to the stack
         addArrangedSubview(button)
+        
+        // Setup the button action
+        button.addTarget(self, action: #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
     }
 }
