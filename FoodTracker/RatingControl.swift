@@ -40,10 +40,10 @@ class RatingControl: UIStackView {
         button.heightAnchor.constraint(equalToConstant: 44.0).isActive = true
         button.widthAnchor.constraint(equalToConstant: 44.0).isActive = true
         
-        //Add the button to the stack
-        addArrangedSubview(button)
-        
         // Setup the button action
         button.addTarget(self, action: #selector(RatingControl.ratingButtonTapped(button:)), for: .touchUpInside)
+        
+        //Add the button to the stack
+        addArrangedSubview(button)
     }
 }
