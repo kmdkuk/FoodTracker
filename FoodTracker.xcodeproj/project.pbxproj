@@ -407,6 +407,7 @@
 				1E4F4FE01ED5166B007D78B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E4F4FE11ED5166B007D78B7 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				1E4F4FE31ED5166B007D78B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
