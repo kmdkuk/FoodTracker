@@ -52,7 +52,8 @@ class MealTableViewController: UITableViewController {
         cell.photoImageView.image = meal.photo
         cell.ratingControl.rating = meal.rating
         
-        return cell    }
+        return cell
+    }
     
     /*
      // Override to support conditional editing of the table view.
