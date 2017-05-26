@@ -57,12 +57,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Your Meals" id="Vi4-la-Vh2">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gQt-Z3-7Ff"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="gQt-Z3-7Ff">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="3xe-Ro-kCY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FT7-Py-pVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="360.80000000000001" y="173.16341829085459"/>
+            <point key="canvasLocation" x="300" y="173"/>
         </scene>
         <!--Meal View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -124,7 +128,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1072.8" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1481" y="173"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="F6c-2N-IgX">
